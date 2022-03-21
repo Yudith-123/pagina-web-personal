@@ -1,0 +1,70 @@
+/*# Empty CSS file for your own CSS*/
+
+body {
+	background: #dd9595;
+	font-family: 'Lato', Arial, sans-serif;
+    color: rgb(14, 13, 10);
+	
+}
+
+
+footer{
+    width: auto;
+    position: relative;
+  
+    clear: both;
+    background:#092327;/*para q sea ancho el verde  background: rgb(34, 35, 50);*/
+    text-align: center;
+    color: rgb(225, 231, 229);
+    font-family: 'Lato', 'Times New Roman', Times, serif;
+}
+
+
+
+
+#galeria .col-lg-4{ 
+    margin: 0 !important;
+    padding: 25px;
+}
+
+#galeria img{
+    width: 100%;
+    height: 250px;
+}
+#galeria img:hover{
+    border: 8px solid #82ac63;
+}
+
+/*contacto inicio*/
+.contacto {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+
+
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+/*contacto final*/
